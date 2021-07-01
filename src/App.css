@@ -1,0 +1,48 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #d14f4f;
+  line-height: 1.7;
+  font-size: 20px;
+  background: radial-gradient(ellipse at top, #982829, #9c27b0ad),
+              radial-gradient(ellipse at bottom, #00ff0a, #836f6fcc);
+}
+
+.nasa-photo {
+  display: flex;
+  padding: 40px;
+  margin: 0 auto;
+  max-height: 100%;
+}
+
+.nasa-photo img {
+  width: 50%;
+  margin-right: 50px;
+  object-fit: contain;
+  max-height: 80vh;
+}
+
+.nasa-photo h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.nasa-photo .date {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.nasa-photo .explanation {
+  color: #bbb;
+}
+
+@media (max-width: 1280px) {
+  .nasa-photo {
+    display: flex;
+  }
+
+  .nasa-photo img {
+    width: 100%;
+     
+    margin-bottom: 30px;
+  }
+}
